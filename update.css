@@ -1,0 +1,39 @@
+
+            body{
+				background-color:dimgray;
+			}
+			addStudent{
+				background-color:dimgray;
+				
+			}
+			
+			formStyle{
+               color:whitesmoke;
+               font-size:20px;
+               background-color:green;
+                   
+            }
+            input[type="text"],[type="number"]{
+                width: 100%;
+                font-size: 20px;
+                padding: 10px 15px;
+                margin: 8px 0;
+                display: inline-block;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                box-sizing: border-box;
+                  
+            }
+            input[type="submit"]{
+                width: 10%;
+                padding: 10px;
+                margin-left: 45%;
+                font-size: 20px;
+               
+                
+            }
+            input[type="submit"]:hover{
+                background-color: dimgrey;
+                border: 2px solid#0099cc;   
+                    
+            }

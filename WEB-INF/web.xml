@@ -1,0 +1,53 @@
+
+<web-app>
+	<servlet>
+        <servlet-name>AddToDB</servlet-name>
+        <servlet-class>AddToDB</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddToDB</servlet-name>
+        <url-pattern>/add</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>percentage</servlet-name>
+        <servlet-class>percentage</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>percentage</servlet-name>
+        <url-pattern>/per</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>Average</servlet-name>
+        <servlet-class>Average</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Average</servlet-name>
+        <url-pattern>/avg</url-pattern>
+    </servlet-mapping>
+	<servlet>
+        <servlet-name>UpdateServlet</servlet-name>
+        <servlet-class>UpdateServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdateServlet</servlet-name>
+        <url-pattern>/update</url-pattern>
+    </servlet-mapping>
+	<servlet>
+        <servlet-name>UpdateServlet1</servlet-name>
+        <servlet-class>UpdateServlet1</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdateServlet1</servlet-name>
+        <url-pattern>/usd</url-pattern>
+    </servlet-mapping>
+	<servlet>
+        <servlet-name>ResultServlet</servlet-name>
+        <servlet-class>ResultServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ResultServlet</servlet-name>
+        <url-pattern>/result</url-pattern>
+    </servlet-mapping>
+	
+</web-app>
+
